@@ -1,0 +1,22 @@
+{
+    "name": "makari4/mpdf",
+    "version": "5.7.4",
+    "type": "library",
+    "description": "mPDF is a PHP class which generates PDF files from UTF-8 encoded HTML. It is based on FPDF and HTML2FPDF, with a number of enhancements.",
+    "keywords": ["php", "pdf","html"],
+    "homepage": "http://www.mpdf1.com/mpdf/index.php",
+    "license": ["GPL-1.0+"],
+    "authors": [
+        {
+            "name": "Ian Back",
+            "email": "ianb@bpm1.com"
+        }
+    ],
+    "require": {
+        "php": ">=4.3.10",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "classmap": ["mpdf.php", "classes"]
+    }
+}
